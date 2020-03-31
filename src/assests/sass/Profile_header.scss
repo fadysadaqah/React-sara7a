@@ -1,0 +1,64 @@
+.t-cover-photo{
+    width: 95%;
+    max-width: 851px;
+    margin-top: 50px;   
+    position: relative;
+    .t-cover-img{
+        height: 330px;
+        border-radius:0 0 20px 20px;
+        width: 100%;
+        z-index: -2;
+        
+    }
+    .cover-img-gradient{
+        background: linear-gradient(rgba(0,0,0,0) 71%, rgba(0,0,0,.53));
+        height: 330px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 0;
+        border-radius:0 0 20px 20px;
+
+
+
+    }
+    .t-profile-and-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -100px;
+        padding: 0 20px;
+          align-items: center;
+    }
+    .t-avatar{
+        border-radius: 50%; 
+        width: 150px;
+        border: 5px solid  #e9ebee;
+        z-index: 20 ;
+
+    }
+    .t-buttons{
+        margin-bottom: 10px;
+        display: flex;
+        z-index: 20 ;
+
+        .add-friend-btn{
+            margin-right: 7px;
+        }
+        .t-button{
+            display: flex;
+            align-items: center;
+        }
+        .cover-icons{
+            margin-right: 3px;
+        }
+    }
+
+        .user-name{
+            color: #fff;
+            font-family: roboto;
+            font-size: 20px;
+            font-weight: 800;
+            z-index: 20;
+            margin-left: 15px;
+        }
+    }
